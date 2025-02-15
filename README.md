@@ -1,0 +1,3 @@
+# Unexpected Behavior with Null and Undefined Values
+
+This repository demonstrates a common JavaScript bug related to the handling of null and undefined values. The `foo` function correctly handles null inputs, returning null in those cases.  However, it does not explicitly handle undefined inputs, which can lead to unexpected behavior or errors depending on the context of how the function is used.
